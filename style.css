@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #007979;
+    font-size: 25px;
+}
+
+b{
+    text-decoration: none;
+    color: #555353;
+}
+
+header{
+    background-color: #EEEEEE;
+    color: #fff;
+}
+
+footer{
+    background-color: #EEEEEE;
+    color: #fff;
+}
+
+.header-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+
+    ul{
+        display: flex;
+        gap: 45px;
+        list-style: none;
+    }
+}
+
+.login{
+    background-color: #007979;
+    padding: 10px 30px;
+}
+
+.footer-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+
+    ul{
+        display: flex;
+        gap: 45px;
+        list-style: none;
+    }
+}
+
+.startnow-layout{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0px 50px;
+    justify-content: space-between;
+    div{
+        width: 50%;
+    }
+}
+
+.startnow-header{
+    font-weight: bold;
+    font-size: 55px;
+    margin: 20px;
+}
+
+.startnow-text{
+    margin: 20px;
+}
+
+.startnow-button{
+    background-color: #007979;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px 40px;
+    margin: 20px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.demo{
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 30px;
+    width: 400px;   /*Se pueden borrar estos dos pq tenemos el height auto*/
+    height: 410px;
+    img{
+        width: 100%;
+        height: auto;
+        background-color: #aaa;
+        object-fit: cover;
+    }
+}
+
+.service-header{
+    align-items: center;
+}
+
+.services-layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #EEEEEE;
+    margin: 30px 0;
+    padding: 30px;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;   
+}
+
+.service-card{
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    padding: 10px;
+    height: 150px;
+    width: 160px;
+    img{
+        width: 90%;
+        height: 75px;
+        background-color: #aaa;
+        object-fit: cover;
+    }
+}
